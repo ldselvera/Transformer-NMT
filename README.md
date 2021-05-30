@@ -1,7 +1,7 @@
 # Transformer Neural Machine Translation
 
 For easier execution of this code, run on google colab (enable GPU):
-https://colab.research.google.com/drive/1jUI2Z7cZrQAO4WnROmDHKtxxPns2CkRs?usp=sharing
+https://colab.research.google.com/github/ldselvera/Transformer-NMT/blob/main/Transformer_NMT.ipynb
 
 To obtain trained models along with the notebook as well:
 https://drive.google.com/drive/folders/1o5dn_2qX2Xyc959I2Mb18cj2BWhiZzss?usp=sharing

@@ -1,10 +1,9 @@
 # Transformer Neural Machine Translation
 
 For easier execution of this code, run on google colab (enable GPU):
+
 https://colab.research.google.com/github/ldselvera/Transformer-NMT/blob/main/Transformer_NMT.ipynb
 
-To obtain trained models along with the notebook as well:
-https://drive.google.com/drive/folders/1o5dn_2qX2Xyc959I2Mb18cj2BWhiZzss?usp=sharing
 
 1. IMPORTANT: The model can translate from english to german or english to german. 
 To make it easier for the user, I have a variable called "trans". 

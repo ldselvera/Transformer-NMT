@@ -1,4 +1,4 @@
-# Transformer Neural Machine Translation
+# Transformer Neural Machine Translation (NMT)
 
 For easier execution of this code, run on google colab (enable GPU):
 

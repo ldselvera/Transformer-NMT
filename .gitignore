@@ -1,0 +1,8 @@
+.vscode
+.ipynb_checkpoints/
+prev/
+.pt
+model/__pycache__/
+*.pt
+*.tar
+,data/

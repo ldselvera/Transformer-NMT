@@ -1,11 +1,11 @@
 from flask import Flask, render_template, request, session, redirect
-# from model.predict import prediction
-# from model.load import load_info
+from model.predict import prediction
+from model.load import load_info
 
 app = Flask(__name__)
 
 # global model
-# model, tokenizer = load_info()
+# model, english, german = load_info()
  
 @app.route('/')
 def index():
@@ -14,13 +14,13 @@ def index():
 @app.route('/translation', methods=['POST', 'GET'])
 def result():
   if request.method == 'POST':
-    question = request.form['text']
+    sentence = request.form['text']
   
-  if question=='':
+  if sentence == '':
     answer="Please provide a sentence."
   else:
-    answer='Translated sentence.'
-    # answer = prediction(question, model, tokenizer)
+    # answer='Translated sentence.'
+    answer = prediction(sentence)
   return render_template("translation.html", result= answer)
 
 if __name__ == '__main__':

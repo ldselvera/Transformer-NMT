@@ -1,11 +1,7 @@
 from flask import Flask, render_template, request, session, redirect
 from model.predict import prediction
-from model.load import load_info
 
 app = Flask(__name__)
-
-# global model
-# model, english, german = load_info()
  
 @app.route('/')
 def index():

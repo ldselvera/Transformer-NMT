@@ -858,7 +858,7 @@ legend {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  background: "{{url_for('static', filename='images/backimg.png')}}";
+  background: "{{url_for('static', filename='images/backimg.jpg')}}";
   background-size: cover;
   background-position: center center;
   padding: 15px;

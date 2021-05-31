@@ -5,4 +5,4 @@ prev/
 model/__pycache__/
 *.pt
 *.tar
-,data/
+.data/

@@ -1,6 +1,7 @@
 # Transformer Neural Machine Translation (NMT)
 
 #TODO: FIX DEPLOY.PY MODEL LOAD
+
 For easier execution of this code, run on google colab (enable GPU):
 
 https://colab.research.google.com/github/ldselvera/Transformer-NMT/blob/main/Transformer_NMT.ipynb
